@@ -1,0 +1,11 @@
+banned-words:
+  - badword1
+  - badword2
+  - badword3
+
+max-infractions: 5
+
+messages:
+  warning: "&cYou used a banned word! {remaining} infractions left before you are banned."
+  admin-notify: "&e{player} used a banned word. Infractions: {infractions}."
+  ban-reason: "&cYou have been banned for excessive use of banned words."

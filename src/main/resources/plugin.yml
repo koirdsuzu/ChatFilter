@@ -1,0 +1,18 @@
+name: ChatFilter
+version: 1.0
+main: com.koirdsuzu.chatfilter.Main
+api-version: 1.16
+commands:
+  history:
+    description: View a player's infraction history.
+    usage: /history <MCID>
+    permission: chatfilter.history
+  clearhistory:
+    description: Clear a player's chat infraction history.
+    usage: /clearhistory <player>
+    permission: chatfilter.clearhistory
+    permission-message: You do not have permission to use this command.
+permissions:
+  chatfilter.history:
+    description: Allows access to the /history command.
+    default: op
