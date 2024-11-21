@@ -9,11 +9,11 @@ Minecraftのプラグインで、禁止単語をチャットから削除しま�
  - 管理者はコマンドでプレイヤーの違反履歴を削除可能。
  - Minecraft 1.16以降のバージョンに対応。
 # コマンド
- - ``/clearhistory <player>``
+## ``/clearhistory <player>``
  - 説明: 指定したプレイヤーの違反履歴を削除します。
  - 権限: chatfilter.clearhistory
  - 使用例: /clearhistory Steve
- - ``/history <player>``
+## ``/history <player>``
  - 説明: 指定したプレイヤーの違反履歴を確認します。
  - 権限: chatfilter.history
  - 使用例: /history Steve
